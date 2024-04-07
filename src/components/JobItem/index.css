@@ -1,0 +1,137 @@
+.job-item-container {
+  list-style: none;
+  background-color: #272727;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 0px 20px 20px 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.img-title-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.title-rating-container {
+  margin-bottom: 0px;
+}
+
+.company-heading {
+  font-size: 30px;
+  margin-bottom: 11px;
+  margin-top: 0px;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  margin-top: 16px;
+}
+
+.title-heading {
+  color: #ffffff;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.star-rating-container {
+  display: flex;
+  margin-top: 0px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.lpa {
+  width: 70px;
+}
+
+.rating-text {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.location-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.location-job-type-container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.location-icon-container {
+  display: flex;
+}
+
+.location-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.location {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.job-type {
+  margin-top: 60px;
+}
+
+.package {
+  margin-top: 0px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .job-item-container {
+    width: 100%;
+  }
+
+  .title-heading {
+    font-size: 25px;
+  }
+
+  .company-heading {
+    font-size: 21px;
+  }
+
+  .location-package-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .location-icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .package {
+    width: 70px;
+    margin-right: 20px;
+  }
+
+  .job-type {
+    width: 300px;
+  }
+}
